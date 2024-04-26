@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar{
+  background-color: blue;
+}
+.category-aktif{
+  background-color: #22668A;
+  color: white;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@media only screen and (max-height: 1000px){
+  .hasil{
+    height: 450px;
+  }
+  .menu{
+    height: 800px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
